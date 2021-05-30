@@ -1,11 +1,18 @@
 .button-box {
-    margin-top: 30px;
+    display: flex;
+    width: 520px;
+    justify-content: center;
+  
+    
 }
 .search-box {
-    width: 550px;
-    height: 40px;
-    border-radius: 30px;
-    font-size: 18px;
+    padding: 14px 400px 10px 50px;
+    margin: 30px 0px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-image: url("../images/doge.jpg");
+    background-size: 40px;
+    background-repeat: no-repeat;
 }
  
 footer {
@@ -13,11 +20,35 @@ footer {
     justify-content: space-between;
     align-content:flex-end;
 }
+.link-class{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
 
-main {
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 95vh;
+    padding: 100px 0px 260px;
+    border-width: 10px;
+    margin: 100px;
+    /* min-height: 95vh; */
+}
+
+.top-nav-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 20px 0px;
+    margin: 0px;
+    border-width: 0px;
+    
+}
+
+
+a:link {
+    text-decoration: none;
+    color: black;
 }
