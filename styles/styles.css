@@ -1,0 +1,23 @@
+.button-box {
+    margin-top: 30px;
+}
+.search-box {
+    width: 550px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+ 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content:flex-end;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
