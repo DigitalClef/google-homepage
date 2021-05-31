@@ -2,23 +2,50 @@
     display: flex;
     width: 520px;
     justify-content: center;
-  
-    
+    margin: 10px 20px;
+}
+
+.button-design {
+    background-color: rgb(248, 249, 250);
+    border-width: 0px;
+    margin: 20px 5px;
+    padding: 10px 23px;
+    font-size: 15px;
+}
+.button-design:hover {
+    box-shadow: 1px 1px 5px 1px lightgray;
+}
+body {
+    margin:0px;
+
 }
 .search-box {
-    padding: 14px 400px 10px 50px;
-    margin: 30px 0px;
-    border-radius: 20px;
+    padding: 14px 350px 10px 50px;
+    margin: 30px 0px 25px;
+    border-radius: 30px;
     font-size: 16px;
-    background-image: url("../images/doge.jpg");
+    background-image: url("../images/luna-tuna-runa.png");
     background-size: 40px;
     background-repeat: no-repeat;
+    background-position: 5px;
+    border-width: 1px;
 }
  
-footer {
+.search-box:hover {
+    box-shadow: 1px 1px 5px 1px lightgray;
+}
+.footer {
+    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
-    align-content:flex-end;
+    padding: 15px 10px;
+    border-width: 0px;
+    margin: 0px;
+
+}
+.sub-footer{
+    display: flex;
+
 }
 .link-class{
     display: flex;
@@ -31,7 +58,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 100px 0px 260px;
+    padding: 100px 0px 200px;
     border-width: 10px;
     margin: 100px;
     /* min-height: 95vh; */
